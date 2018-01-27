@@ -2,7 +2,7 @@ from datetime import datetime
 import time
 from github import Github
 
-GITHUB_TOKEN = 'f7d41e6f9ede7fbfb5ca8dce4879ef3b07ed1e5c'
+GITHUB_TOKEN = '318fdf050b663381890db398885baabd5cdcdbea'
 user = 'vedank'
 
 github = Github(GITHUB_TOKEN)
