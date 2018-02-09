@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Prod') {
             steps {
-                echo 'Hello, Production'
+                echo 'Hello, Production '
                 copyArtifacts fingerprintArtifacts: true, projectName: 'proxy-pos-ci', target: 'C:\\Users\\Administrator\\Desktop\\Build\\Prod'
                 input message: 'Do you want to deploy?', submitter: 'vineet'
             }
